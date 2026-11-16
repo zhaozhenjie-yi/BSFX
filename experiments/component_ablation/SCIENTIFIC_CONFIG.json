@@ -1,0 +1,366 @@
+{
+  "ablations": {
+    "no_context": "移除调用图与V2语义两个上下文残差，只用局部编码器",
+    "no_call_context": "移除调用图残差，保留V2语义残差",
+    "no_semantic_context": "移除V2语义残差，保留调用图残差",
+    "semantic_only_hpe": "HPE仅保留词向量与64维语义投影，移除结构位置/REF融合及门控",
+    "identity_gru": "GRU加权序列改为原始128维输入，DWAF的K投影仍训练",
+    "identity_cnn": "CNN门控序列改为原始128维输入，DWAF的V投影仍训练",
+    "fixed_dwaf_fusion": "DWAF注意力改为(GRU+CNN)/2，再沿用输出投影和拼接闭合投影；Q/K/V投影停用",
+    "no_st_bias": "关闭6层Transformer的深度、兄弟、同段、REF关系偏置，保留HPE与普通自注意力",
+    "uniform_segments": "段注意力标量权重置零并冻结，在有效段上均匀平均概率",
+    "unweighted_ce": "完整结构，仅取消类别权重，仍为自然采样",
+    "alpha_one": "完整结构，仅将Transformer两残差分支的缩放从0.1改为1"
+  },
+  "base": {
+    "route": "v2",
+    "sampling": "natural",
+    "loss": "weighted_ce",
+    "lr": 0.0001,
+    "dropout": 0.1,
+    "steps": 800
+  },
+  "seeds": [
+    123,
+    456,
+    789
+  ],
+  "initial_digest": "349e9fe68d2cf2fd6ee387acac61cd9004d0dbe955a0d4c74a7fe2c80cb3b292",
+  "schedule_sha256": {
+    "123": "a712cf7dbdae3030f360d7f45f28495eb6adb9f28cb4e8664820b8b4ea82706e",
+    "456": "b8d59fcae0c26a1a54c075b69e87db9b0f422aedf25249cb02978d500041042c",
+    "789": "ced8f3dd183ce9b92a02971ac17e9995d5554ba27644ede27f7536fc0344b6aa"
+  },
+  "runs": {
+    "no_context_seed123": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_context",
+      "seed": 123
+    },
+    "no_context_seed456": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_context",
+      "seed": 456
+    },
+    "no_context_seed789": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_context",
+      "seed": 789
+    },
+    "no_call_context_seed123": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_call_context",
+      "seed": 123
+    },
+    "no_call_context_seed456": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_call_context",
+      "seed": 456
+    },
+    "no_call_context_seed789": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_call_context",
+      "seed": 789
+    },
+    "no_semantic_context_seed123": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_semantic_context",
+      "seed": 123
+    },
+    "no_semantic_context_seed456": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_semantic_context",
+      "seed": 456
+    },
+    "no_semantic_context_seed789": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_semantic_context",
+      "seed": 789
+    },
+    "semantic_only_hpe_seed123": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "semantic_only_hpe",
+      "seed": 123
+    },
+    "semantic_only_hpe_seed456": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "semantic_only_hpe",
+      "seed": 456
+    },
+    "semantic_only_hpe_seed789": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "semantic_only_hpe",
+      "seed": 789
+    },
+    "identity_gru_seed123": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "identity_gru",
+      "seed": 123
+    },
+    "identity_gru_seed456": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "identity_gru",
+      "seed": 456
+    },
+    "identity_gru_seed789": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "identity_gru",
+      "seed": 789
+    },
+    "identity_cnn_seed123": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "identity_cnn",
+      "seed": 123
+    },
+    "identity_cnn_seed456": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "identity_cnn",
+      "seed": 456
+    },
+    "identity_cnn_seed789": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "identity_cnn",
+      "seed": 789
+    },
+    "fixed_dwaf_fusion_seed123": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "fixed_dwaf_fusion",
+      "seed": 123
+    },
+    "fixed_dwaf_fusion_seed456": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "fixed_dwaf_fusion",
+      "seed": 456
+    },
+    "fixed_dwaf_fusion_seed789": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "fixed_dwaf_fusion",
+      "seed": 789
+    },
+    "no_st_bias_seed123": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_st_bias",
+      "seed": 123
+    },
+    "no_st_bias_seed456": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_st_bias",
+      "seed": 456
+    },
+    "no_st_bias_seed789": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_st_bias",
+      "seed": 789
+    },
+    "uniform_segments_seed123": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "uniform_segments",
+      "seed": 123
+    },
+    "uniform_segments_seed456": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "uniform_segments",
+      "seed": 456
+    },
+    "uniform_segments_seed789": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "uniform_segments",
+      "seed": 789
+    },
+    "unweighted_ce_seed123": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "unweighted_ce",
+      "seed": 123
+    },
+    "unweighted_ce_seed456": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "unweighted_ce",
+      "seed": 456
+    },
+    "unweighted_ce_seed789": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "unweighted_ce",
+      "seed": 789
+    },
+    "alpha_one_seed123": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "alpha_one",
+      "seed": 123
+    },
+    "alpha_one_seed456": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "alpha_one",
+      "seed": 456
+    },
+    "alpha_one_seed789": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "alpha_one",
+      "seed": 789
+    }
+  }
+}

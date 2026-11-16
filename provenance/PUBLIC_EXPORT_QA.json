@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "broken_markdown_links": [],
+  "secret_or_private_endpoint_pattern_hits": [],
+  "scope": "Bounded scan of selected public exports; no whole-device scan; no private data or model execution"
+}

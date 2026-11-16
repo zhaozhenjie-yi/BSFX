@@ -1,0 +1,149 @@
+{
+  "ablations": {
+    "no_call_edges": "Mask legacy call_mask; keep nodes, signatures and V2 semantic events. Not all call information.",
+    "no_param_binding": "Empty explicit V2 actual/formal binding rows and zero binding count; retain argument expressions and types.",
+    "no_guard_input": "Remove V2 event guard expression indices and constant-false-guard flag; retain local AST and partial-flow flags.",
+    "no_ref_input": "Zero HPE reference identity/definition inputs and ST reference-link matrix; retain other structure and semantics. Not general DFG deletion."
+  },
+  "base": {
+    "route": "v2",
+    "sampling": "natural",
+    "loss": "weighted_ce",
+    "lr": 0.0001,
+    "dropout": 0.1,
+    "steps": 800
+  },
+  "seeds": [
+    123,
+    456,
+    789
+  ],
+  "initial_digest": "349e9fe68d2cf2fd6ee387acac61cd9004d0dbe955a0d4c74a7fe2c80cb3b292",
+  "schedule_sha256": {
+    "123": "a712cf7dbdae3030f360d7f45f28495eb6adb9f28cb4e8664820b8b4ea82706e",
+    "456": "b8d59fcae0c26a1a54c075b69e87db9b0f422aedf25249cb02978d500041042c",
+    "789": "ced8f3dd183ce9b92a02971ac17e9995d5554ba27644ede27f7536fc0344b6aa"
+  },
+  "runs": {
+    "no_call_edges_seed123": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_call_edges",
+      "seed": 123
+    },
+    "no_call_edges_seed456": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_call_edges",
+      "seed": 456
+    },
+    "no_call_edges_seed789": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_call_edges",
+      "seed": 789
+    },
+    "no_param_binding_seed123": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_param_binding",
+      "seed": 123
+    },
+    "no_param_binding_seed456": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_param_binding",
+      "seed": 456
+    },
+    "no_param_binding_seed789": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_param_binding",
+      "seed": 789
+    },
+    "no_guard_input_seed123": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_guard_input",
+      "seed": 123
+    },
+    "no_guard_input_seed456": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_guard_input",
+      "seed": 456
+    },
+    "no_guard_input_seed789": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_guard_input",
+      "seed": 789
+    },
+    "no_ref_input_seed123": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_ref_input",
+      "seed": 123
+    },
+    "no_ref_input_seed456": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_ref_input",
+      "seed": 456
+    },
+    "no_ref_input_seed789": {
+      "route": "v2",
+      "sampling": "natural",
+      "loss": "weighted_ce",
+      "lr": 0.0001,
+      "dropout": 0.1,
+      "steps": 800,
+      "ablation": "no_ref_input",
+      "seed": 789
+    }
+  }
+}

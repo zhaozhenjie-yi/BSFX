@@ -1,0 +1,45 @@
+{
+  "mechanism_V2_V3": {
+    "train_variants": 18,
+    "train_source_groups": 4,
+    "validation_variants": 14,
+    "validation_source_groups": 7,
+    "V2": {
+      "train_F1": 0.8235,
+      "train_CE": 0.4317,
+      "validation_F1": 0.3636,
+      "validation_CE": 0.7464,
+      "validation_AUROC": 0.4694,
+      "validation_AP": 0.5167,
+      "validation_TP": 2,
+      "validation_FP": 2
+    },
+    "V3": {
+      "train_F1": 0.875,
+      "train_CE": 0.326,
+      "validation_F1": 0.25,
+      "validation_CE": 0.8398,
+      "validation_AUROC": 0.5918,
+      "validation_AP": 0.7214,
+      "validation_TP": 1,
+      "validation_FP": 0
+    }
+  },
+  "external_annotation_proxy": {
+    "MISRA": {
+      "n": 98,
+      "positive": 68,
+      "negative": 30,
+      "V2_F1": 0.6154,
+      "V3_F1": 0.6034
+    },
+    "ISO17961": {
+      "n": 38,
+      "positive": 24,
+      "negative": 14,
+      "V2_F1": 0.6383,
+      "V3_F1": 0.5532
+    }
+  },
+  "limits": "Older 200-step models; annotation proxies and mechanism contracts are not production vulnerability ground truth. These are not the current 800-step model results."
+}

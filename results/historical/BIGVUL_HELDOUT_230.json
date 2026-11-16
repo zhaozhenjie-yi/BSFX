@@ -1,0 +1,74 @@
+{
+  "scope": "Engineering/V2 eligible validation; train 44 positive / 1182 negative; validation 9 positive / 221 negative",
+  "runs": [
+    {
+      "name": "Natural",
+      "train_TP_TN_FP_FN": [
+        7,
+        1182,
+        0,
+        37
+      ],
+      "validation_TP_TN_FP_FN": [
+        0,
+        220,
+        1,
+        9
+      ],
+      "validation_AUROC": 0.4952,
+      "validation_AP": 0.04
+    },
+    {
+      "name": "Balanced retry01",
+      "train_TP_TN_FP_FN": [
+        44,
+        1178,
+        4,
+        0
+      ],
+      "validation_TP_TN_FP_FN": [
+        0,
+        219,
+        2,
+        9
+      ],
+      "validation_AUROC": 0.7086,
+      "validation_AP": 0.1111
+    },
+    {
+      "name": "Balanced UNK p=0.1",
+      "train_TP_TN_FP_FN": [
+        44,
+        1179,
+        3,
+        0
+      ],
+      "validation_TP_TN_FP_FN": [
+        0,
+        217,
+        4,
+        9
+      ],
+      "validation_AUROC": 0.5767,
+      "validation_AP": 0.069
+    },
+    {
+      "name": "Natural WeightedCE",
+      "train_TP_TN_FP_FN": [
+        26,
+        1181,
+        1,
+        18
+      ],
+      "validation_TP_TN_FP_FN": [
+        0,
+        217,
+        4,
+        9
+      ],
+      "validation_AUROC": 0.5827,
+      "validation_AP": 0.0487
+    }
+  ],
+  "provenance": "Rounded values in retained experimental reports; raw per-function records remain private."
+}

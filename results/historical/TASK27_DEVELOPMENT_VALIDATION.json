@@ -1,0 +1,57 @@
+{
+  "selection": "best validation epoch; not independent test",
+  "runs": [
+    {
+      "n": 298,
+      "TP": 3,
+      "TN": 274,
+      "FP": 12,
+      "FN": 9,
+      "accuracy": 0.9295302013422819,
+      "precision": 0.2,
+      "recall": 0.25,
+      "f1": 0.2222222222222222,
+      "dataset": "bigvul",
+      "seed": 123
+    },
+    {
+      "n": 298,
+      "TP": 6,
+      "TN": 204,
+      "FP": 82,
+      "FN": 6,
+      "accuracy": 0.7046979865771812,
+      "precision": 0.06818181818181818,
+      "recall": 0.5,
+      "f1": 0.12,
+      "dataset": "bigvul",
+      "seed": 2024
+    },
+    {
+      "n": 154,
+      "TP": 135,
+      "TN": 19,
+      "FP": 0,
+      "FN": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "dataset": "sard",
+      "seed": 123
+    },
+    {
+      "n": 154,
+      "TP": 134,
+      "TN": 19,
+      "FP": 0,
+      "FN": 1,
+      "accuracy": 0.9935064935064936,
+      "precision": 1.0,
+      "recall": 0.9925925925925926,
+      "f1": 0.9962825278810409,
+      "dataset": "sard",
+      "seed": 2024
+    }
+  ]
+}

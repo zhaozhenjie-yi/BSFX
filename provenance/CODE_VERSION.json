@@ -1,0 +1,670 @@
+{
+  "date": "2026-11-16",
+  "code_files": [
+    {
+      "path": "src/chapter4_repro/ref_kind_filters.py",
+      "sha256": "cd4e44d51a426b9af7aa5b9e94223bf57d839fb0e51fdc8fc1a9fe55dc212f7e",
+      "original_source_sha256": "cd4e44d51a426b9af7aa5b9e94223bf57d839fb0e51fdc8fc1a9fe55dc212f7e",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/__init__.py",
+      "sha256": "25a3978936acf875763a6449193bad3cf6240bdc10b9a16d7a9236e598ad586e",
+      "original_source_sha256": "25a3978936acf875763a6449193bad3cf6240bdc10b9a16d7a9236e598ad586e",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/embedding/aligned_hpe.py",
+      "sha256": "f5ebea43034128d3a8430febb6593c9b2a89409c806871347872561779db9c5d",
+      "original_source_sha256": "f5ebea43034128d3a8430febb6593c9b2a89409c806871347872561779db9c5d",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/embedding/cbow.py",
+      "sha256": "c2215e8908ae2c02ebc523e4c5d3bfd136931eb00840ec7a181c9d6718b57f33",
+      "original_source_sha256": "c2215e8908ae2c02ebc523e4c5d3bfd136931eb00840ec7a181c9d6718b57f33",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/embedding/hpe.py",
+      "sha256": "810a811ca125be7611b0c9020fd1926bd57046288382f129586c1cc7c143a4eb",
+      "original_source_sha256": "810a811ca125be7611b0c9020fd1926bd57046288382f129586c1cc7c143a4eb",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/embedding/pretrained.py",
+      "sha256": "89120978648d66aa96161367a5e525bf297e7fba9c0a591be0104fe6ca819538",
+      "original_source_sha256": "89120978648d66aa96161367a5e525bf297e7fba9c0a591be0104fe6ca819538",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/embedding/__init__.py",
+      "sha256": "8b04852abab741e12b45fb8f2e913459b6d1823109fb1d25bb46fc26b797c7be",
+      "original_source_sha256": "8b04852abab741e12b45fb8f2e913459b6d1823109fb1d25bb46fc26b797c7be",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/models/classifier.py",
+      "sha256": "6b068e5fb8689c93294cc54905d67dfd1bc92d5a9624ec3726ba5dfe50a6a398",
+      "original_source_sha256": "6b068e5fb8689c93294cc54905d67dfd1bc92d5a9624ec3726ba5dfe50a6a398",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/models/full_model.py",
+      "sha256": "a5ffe1c6e33510a56bd4b70089167d4405ce199094b6b2be84c0cb4898bf673e",
+      "original_source_sha256": "a5ffe1c6e33510a56bd4b70089167d4405ce199094b6b2be84c0cb4898bf673e",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/models/hierarchical_path_fusion.py",
+      "sha256": "ac866986b509bc88143776d55e6ea35ad530ce64377ec5095c21620b2bf5c6e3",
+      "original_source_sha256": "ac866986b509bc88143776d55e6ea35ad530ce64377ec5095c21620b2bf5c6e3",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/models/multibranch_fusion.py",
+      "sha256": "db59f067ff15a7531991c9386bce37cd8a851f0dd176b0b09fbc8198d8bebe7e",
+      "original_source_sha256": "db59f067ff15a7531991c9386bce37cd8a851f0dd176b0b09fbc8198d8bebe7e",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/models/multilevel_classifier.py",
+      "sha256": "d6f524fa5e76d183697f0feffab1bfbc444fd6599cf0100d837c48b4cded2f58",
+      "original_source_sha256": "d6f524fa5e76d183697f0feffab1bfbc444fd6599cf0100d837c48b4cded2f58",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/models/paper_dwaf.py",
+      "sha256": "fb27afc778369398b28951efd50c6a8f8b00a5fdd47710cc6e6f7aa4bd8fddb9",
+      "original_source_sha256": "fb27afc778369398b28951efd50c6a8f8b00a5fdd47710cc6e6f7aa4bd8fddb9",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/models/path_fusion.py",
+      "sha256": "df350822044bd1ce4bc1edb0f862cc6391389dd9aacf6f8ba39668acd303efa6",
+      "original_source_sha256": "df350822044bd1ce4bc1edb0f862cc6391389dd9aacf6f8ba39668acd303efa6",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/models/structure_sensitive_transformer.py",
+      "sha256": "55902e57d47c56ef6275f25de0bbd1c8a4735ffc5df69005ceb48bb7813f9898",
+      "original_source_sha256": "c8cfc2aafbe19699ecff76e6a020cccadebca3c9f9c6abf6bc9dbc58bd9b8c60",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/models/struct_transformer.py",
+      "sha256": "714ceac9d98457dcf0360cc52ec93f18dcccd3ef82790ab07ab80422da736a0b",
+      "original_source_sha256": "714ceac9d98457dcf0360cc52ec93f18dcccd3ef82790ab07ab80422da736a0b",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/models/__init__.py",
+      "sha256": "94ec27c43115eea6ca1cedef97293bca12e09bcc06029504d45303b274d0d9c5",
+      "original_source_sha256": "94ec27c43115eea6ca1cedef97293bca12e09bcc06029504d45303b274d0d9c5",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/representation_v2/clang_shadow.py",
+      "sha256": "28cb135e48f5d22819fc626aacf8df54b9801e025b670989de992cdc1fa333a6",
+      "original_source_sha256": "28cb135e48f5d22819fc626aacf8df54b9801e025b670989de992cdc1fa333a6",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/representation_v2/frontend.py",
+      "sha256": "86604d1aa13bd8fc77d0f31a1e0a0fb7a309a271ca534db4775b4e88ed831f7c",
+      "original_source_sha256": "86604d1aa13bd8fc77d0f31a1e0a0fb7a309a271ca534db4775b4e88ed831f7c",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/representation_v2/matched_embedding.py",
+      "sha256": "3a954a279da70e8debe2453db89c05c8a199a39d0ef7e5357d07b0d466e458bf",
+      "original_source_sha256": "3a954a279da70e8debe2453db89c05c8a199a39d0ef7e5357d07b0d466e458bf",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/representation_v2/materialization.py",
+      "sha256": "9095f087633c086ff2fa2b1031db53de183eb0f4664dce4ade69c0a2563d9409",
+      "original_source_sha256": "9095f087633c086ff2fa2b1031db53de183eb0f4664dce4ade69c0a2563d9409",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/representation_v2/schema.py",
+      "sha256": "4ed10e5fe8cacdf7a212c24731571777d0291fc64f23d77a8ad8859ed69545fa",
+      "original_source_sha256": "4ed10e5fe8cacdf7a212c24731571777d0291fc64f23d77a8ad8859ed69545fa",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/representation_v2/__init__.py",
+      "sha256": "c23d2f79432f919b835c7561624cfb1e1c4876c5efc18f7358125de5a6edb1b8",
+      "original_source_sha256": "c23d2f79432f919b835c7561624cfb1e1c4876c5efc18f7358125de5a6edb1b8",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/task34/data.py",
+      "sha256": "a660eb96e9a3c1b883d5a166b7c0707acbc8503ee031920401e6bbc722116a9b",
+      "original_source_sha256": "a660eb96e9a3c1b883d5a166b7c0707acbc8503ee031920401e6bbc722116a9b",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/task34/evaluator.py",
+      "sha256": "e0dfb834811429e8f99719027fd2734645e4e7bb003ed46929cad7d82e295148",
+      "original_source_sha256": "e0dfb834811429e8f99719027fd2734645e4e7bb003ed46929cad7d82e295148",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/task34/model.py",
+      "sha256": "bd8e66364dd4cdf1a8e8f833c49ca6ff80761a482dfdb1b92e79896f06e95ef9",
+      "original_source_sha256": "0ef65b76efd5e8fec1c55becf6fb91f5e14b4818c53cc171dabc9771ccdb1cc2",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/task34/profile.py",
+      "sha256": "883f21c3251cc9f45eea28e9a9d7155d2454d51b5f088cb93bc6bebb9dfb09e2",
+      "original_source_sha256": "883f21c3251cc9f45eea28e9a9d7155d2454d51b5f088cb93bc6bebb9dfb09e2",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/task34/scope.py",
+      "sha256": "feadc2ac976118ad73af45b9fbdfcfd992255afd7edb536d321032bc6d7e3df4",
+      "original_source_sha256": "feadc2ac976118ad73af45b9fbdfcfd992255afd7edb536d321032bc6d7e3df4",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/task34/__init__.py",
+      "sha256": "460ff3cdb4c716041a344c834dfd7b4a6ed99e20d7fd2dfc22057a816ea11a7c",
+      "original_source_sha256": "460ff3cdb4c716041a344c834dfd7b4a6ed99e20d7fd2dfc22057a816ea11a7c",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/task39s/activation.py",
+      "sha256": "5bd8993abd39cac3737e57a28a94bf6839a6e8030ce238c63a2389a074f392ab",
+      "original_source_sha256": "5bd8993abd39cac3737e57a28a94bf6839a6e8030ce238c63a2389a074f392ab",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/task39s/activation_v2.py",
+      "sha256": "dafd940b06dc1092444513129221184ff52d26a402dfd2454c5bc9620c26b322",
+      "original_source_sha256": "dafd940b06dc1092444513129221184ff52d26a402dfd2454c5bc9620c26b322",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/task39s/attempt_ledger.py",
+      "sha256": "faa521d6cfeac03b796004689d8b0293de05116632533e5a0611b30282a76d2d",
+      "original_source_sha256": "faa521d6cfeac03b796004689d8b0293de05116632533e5a0611b30282a76d2d",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/task39s/formal_evidence.py",
+      "sha256": "891de9028a77820f83082df134118e0ff8793dd16f669807317402975746870b",
+      "original_source_sha256": "891de9028a77820f83082df134118e0ff8793dd16f669807317402975746870b",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/task39s/observability_v3.py",
+      "sha256": "a46e2640488e6228a6271595776cd563d818513071389ca98ba9e4878f881bf4",
+      "original_source_sha256": "a46e2640488e6228a6271595776cd563d818513071389ca98ba9e4878f881bf4",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/task39s/protocol_v3.py",
+      "sha256": "6660ed84fc89e18dcb6b8a28583e1ec3748d8ad7e453cb0254aab931bd655232",
+      "original_source_sha256": "6660ed84fc89e18dcb6b8a28583e1ec3748d8ad7e453cb0254aab931bd655232",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/task39s/r6e_execution_bridge.py",
+      "sha256": "51b7412b83e41fc0b0b75073f0080baa819ee6718fa45b3da7edcb889302a211",
+      "original_source_sha256": "51b7412b83e41fc0b0b75073f0080baa819ee6718fa45b3da7edcb889302a211",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/task39s/r6e_transition_contract.py",
+      "sha256": "9fbb505112982217a6d1a5603825aa10fcd9ab675fded0a90cdda19cf8dc2d58",
+      "original_source_sha256": "9fbb505112982217a6d1a5603825aa10fcd9ab675fded0a90cdda19cf8dc2d58",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/task39s/source_integrity_v2.py",
+      "sha256": "2a0ca8f9630f8eae3ab7ba3489e323a8499954cb20e478a9e3028e2a360e3724",
+      "original_source_sha256": "2a0ca8f9630f8eae3ab7ba3489e323a8499954cb20e478a9e3028e2a360e3724",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/task39s/__init__.py",
+      "sha256": "3fdbac78c46fa4cae35f1413c74b7917e4b1aa4dc3f762e457e640ecb45df93d",
+      "original_source_sha256": "3fdbac78c46fa4cae35f1413c74b7917e4b1aa4dc3f762e457e640ecb45df93d",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/training/dataset.py",
+      "sha256": "b84b7d748e21584e7cb1f52c79b77dfc04b2a97f342be8b827f1dc93fa20d706",
+      "original_source_sha256": "b84b7d748e21584e7cb1f52c79b77dfc04b2a97f342be8b827f1dc93fa20d706",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/chapter4_repro/training/__init__.py",
+      "sha256": "55cfcda8556871067ffab3d46232283f703f516359d1c949e8880c77ac5d8a28",
+      "original_source_sha256": "55cfcda8556871067ffab3d46232283f703f516359d1c949e8880c77ac5d8a28",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/context_model.py",
+      "sha256": "764a3d4265c720014ecf711480070da499cd0691af4d1975e9f0033e0df1d990",
+      "original_source_sha256": "764a3d4265c720014ecf711480070da499cd0691af4d1975e9f0033e0df1d990",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/semantic_encoder.py",
+      "sha256": "7eed1da4f46c32c79d0bbb0e80239b9399ae969e6043ab700470b6514efb454c",
+      "original_source_sha256": "7eed1da4f46c32c79d0bbb0e80239b9399ae969e6043ab700470b6514efb454c",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/semantic_encoder_v3.py",
+      "sha256": "c8ce34d95fcc5408a9f78177ecb591007d461c44aad637d6ebf9a867cdcbae17",
+      "original_source_sha256": "c8ce34d95fcc5408a9f78177ecb591007d461c44aad637d6ebf9a867cdcbae17",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/context_facts.py",
+      "sha256": "341fa956df30c4f67ba483c477a04c07360d12b3af20991d773b167264ab3bc8",
+      "original_source_sha256": "341fa956df30c4f67ba483c477a04c07360d12b3af20991d773b167264ab3bc8",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/context_semantics_v2.py",
+      "sha256": "7049a4a7880577c9899f0ec5da7241d814ee5a93eb2ca550c4c87353abef4534",
+      "original_source_sha256": "7049a4a7880577c9899f0ec5da7241d814ee5a93eb2ca550c4c87353abef4534",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/context_semantics_v3.py",
+      "sha256": "c226092d40b707caf717c5b430d48ee89f2cb5431720c70deac2628a2b30eaef",
+      "original_source_sha256": "c226092d40b707caf717c5b430d48ee89f2cb5431720c70deac2628a2b30eaef",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/missing_context_bridge.py",
+      "sha256": "fd774e372d27f925f7176d6de8627b2ac591c14474cbcf1465683cd4f320dd5b",
+      "original_source_sha256": "fd774e372d27f925f7176d6de8627b2ac591c14474cbcf1465683cd4f320dd5b",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/common04.py",
+      "sha256": "2e1dde4136c6691a6ddc1a9c4a091cdd4fed2325fd5e5161c2b1ed23fec9feb4",
+      "original_source_sha256": "2e1dde4136c6691a6ddc1a9c4a091cdd4fed2325fd5e5161c2b1ed23fec9feb4",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/scope_resolution.py",
+      "sha256": "16cb1ed0a51abf54bbf6dbd7095b8cec3200447e1ed4962f3d1eca7d33ce64c2",
+      "original_source_sha256": "16cb1ed0a51abf54bbf6dbd7095b8cec3200447e1ed4962f3d1eca7d33ce64c2",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "src/evaluation_utils.py",
+      "sha256": "759187a599eddd74df0ebfa3345ce0f413fc752e674c7517265d67b63d7415f9",
+      "original_source_sha256": "f224b9c5cd72b20b403a744f3bda37ddc934bed4a280e4cad372892754719b60",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experimental/return_history/constant_values.py",
+      "sha256": "69e3085edeb0f6369c980062bdb1964fe39331306ea479e2b0643a995b865c7c",
+      "original_source_sha256": "69e3085edeb0f6369c980062bdb1964fe39331306ea479e2b0643a995b865c7c",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experimental/return_history/context_semantics_v2r.py",
+      "sha256": "edd7001d14d591e6d3841a0f5be4253ffba26730c7151d733fc9fd9151b17efb",
+      "original_source_sha256": "edd7001d14d591e6d3841a0f5be4253ffba26730c7151d733fc9fd9151b17efb",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experimental/return_history/context_semantics_v3r.py",
+      "sha256": "587733832c09528893013bfdaef5e65837f44ed65bb16462f38978fa3d94e0ac",
+      "original_source_sha256": "587733832c09528893013bfdaef5e65837f44ed65bb16462f38978fa3d94e0ac",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experimental/return_history/return_flow.py",
+      "sha256": "2a34fc19bd6847d07bfd984884a0c827d1eea4edb23e11f4182737781b5768b8",
+      "original_source_sha256": "5d51908e2c493be1187540489a8e630c1e71c4528a28e4e6089d3052135dd735",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experimental/return_history/return_neural_adapter.py",
+      "sha256": "e3a2b7acc9619af14333e9a8b87e5802999b1a0e7693bfe3e72e46019b4d858c",
+      "original_source_sha256": "e3a2b7acc9619af14333e9a8b87e5802999b1a0e7693bfe3e72e46019b4d858c",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experiments/supervised_training/runtime.py",
+      "sha256": "a986f2f04e45eba6d024da03438cb07b774e857566014e94e31b568dc9d6f5e4",
+      "original_source_sha256": "11fe9bfef41f49f8f49632a29c654940b1bb6328c940faadb356674c835f2a93",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experiments/supervised_training/prepare_cache.py",
+      "sha256": "49a96372d90f8676932adeeb972408d16af03b2fc37e78e53b042fd13c2f67df",
+      "original_source_sha256": "49a96372d90f8676932adeeb972408d16af03b2fc37e78e53b042fd13c2f67df",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experiments/supervised_training/train_arm.py",
+      "sha256": "d26dba9645f9097afabd321ba13ec41bb44f55b75660c91731580f011eaf6848",
+      "original_source_sha256": "d26dba9645f9097afabd321ba13ec41bb44f55b75660c91731580f011eaf6848",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experiments/component_ablation/ablation_runtime.py",
+      "sha256": "7b3c8fcdfa4824917eb6a3cfbef7ccfbcab376dc5dbd3350763f9cea1c08491f",
+      "original_source_sha256": "7db1a5585b7f76ca556d6e6ee80537ca45a73523cb91b8df5d80c83546adacfa",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experiments/component_ablation/train_ablation.py",
+      "sha256": "19b2aadf2ff694705ee2a66d48854c9c376888e70cb5ebe43871f1e81b9497c4",
+      "original_source_sha256": "19b2aadf2ff694705ee2a66d48854c9c376888e70cb5ebe43871f1e81b9497c4",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experiments/component_ablation/eval_worker.py",
+      "sha256": "15ce02378af5827be03e362f9a14d59c2bbac43bed5b24180c2e1c5dee189d85",
+      "original_source_sha256": "15ce02378af5827be03e362f9a14d59c2bbac43bed5b24180c2e1c5dee189d85",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experiments/component_ablation/evaluate_all.py",
+      "sha256": "7455ee36a719071c44af22ae4b5cb26d94f090ab2927e731caf3d3ff2765a25b",
+      "original_source_sha256": "7455ee36a719071c44af22ae4b5cb26d94f090ab2927e731caf3d3ff2765a25b",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experiments/component_ablation/analyze_results.py",
+      "sha256": "b086edc847400e680dbb4a56a9405599f15f79dbc4746bd459d36610a3fe9108",
+      "original_source_sha256": "b086edc847400e680dbb4a56a9405599f15f79dbc4746bd459d36610a3fe9108",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experiments/relation_ablation/ablation_runtime.py",
+      "sha256": "dd4d18545d9564aac3bce67ce31d2396d4c07f8e0db076ce6643fa6e1320b19f",
+      "original_source_sha256": "45036213118d6fdb4756d44d8537137800a1120705bc6de3ab6c6cc0bfe414d7",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experiments/relation_ablation/train_ablation.py",
+      "sha256": "19b2aadf2ff694705ee2a66d48854c9c376888e70cb5ebe43871f1e81b9497c4",
+      "original_source_sha256": "19b2aadf2ff694705ee2a66d48854c9c376888e70cb5ebe43871f1e81b9497c4",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experiments/relation_ablation/eval_worker.py",
+      "sha256": "15ce02378af5827be03e362f9a14d59c2bbac43bed5b24180c2e1c5dee189d85",
+      "original_source_sha256": "15ce02378af5827be03e362f9a14d59c2bbac43bed5b24180c2e1c5dee189d85",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experiments/relation_ablation/evaluate_all.py",
+      "sha256": "5d363b97fabf7d9bae73496d8b95ab35b665dd76c461549bc3227a9df68d5b8d",
+      "original_source_sha256": "ab894f3bd1e1123c7de46a9d143477407afbdde552a99930e95e4fd6e347da9c",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experiments/relation_ablation/relation_masks.py",
+      "sha256": "7fbbd69ffeaf2e184957a0ce8c8b5774ef10925cd1f110f28dd6b2a7c005235c",
+      "original_source_sha256": "7fbbd69ffeaf2e184957a0ce8c8b5774ef10925cd1f110f28dd6b2a7c005235c",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    },
+    {
+      "path": "experiments/relation_ablation/analyze_results.py",
+      "sha256": "9786f8d8501fcc30807676540e201625d48040f7e0a3fdd6568519a2f88b4eb2",
+      "original_source_sha256": "8877b266082e4fa3b72046fa0544a092d113958d71bdd1a435d715e2f6d28aea",
+      "changes": "Private filesystem locations replaced with relative logical asset placeholders; no algorithmic tuning."
+    }
+  ],
+  "bound_runtime_module_count": 48,
+  "all_48_original_bindings_matched_before_export": true,
+  "current_initial_checkpoint_sha256": "164f5b9d29aaa7022596454ac023e3bca523c71fd46f3adc4f807f7d91d26901",
+  "bound_modules": [
+    {
+      "original_sha256": "49a96372d90f8676932adeeb972408d16af03b2fc37e78e53b042fd13c2f67df",
+      "export_path": "experiments/supervised_training/prepare_cache.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "25a3978936acf875763a6449193bad3cf6240bdc10b9a16d7a9236e598ad586e",
+      "export_path": "src/chapter4_repro/__init__.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "883f21c3251cc9f45eea28e9a9d7155d2454d51b5f088cb93bc6bebb9dfb09e2",
+      "export_path": "src/chapter4_repro/task34/profile.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "feadc2ac976118ad73af45b9fbdfcfd992255afd7edb536d321032bc6d7e3df4",
+      "export_path": "src/chapter4_repro/task34/scope.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "460ff3cdb4c716041a344c834dfd7b4a6ed99e20d7fd2dfc22057a816ea11a7c",
+      "export_path": "src/chapter4_repro/task34/__init__.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "8b04852abab741e12b45fb8f2e913459b6d1823109fb1d25bb46fc26b797c7be",
+      "export_path": "src/chapter4_repro/embedding/__init__.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "810a811ca125be7611b0c9020fd1926bd57046288382f129586c1cc7c143a4eb",
+      "export_path": "src/chapter4_repro/embedding/hpe.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "f5ebea43034128d3a8430febb6593c9b2a89409c806871347872561779db9c5d",
+      "export_path": "src/chapter4_repro/embedding/aligned_hpe.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "55cfcda8556871067ffab3d46232283f703f516359d1c949e8880c77ac5d8a28",
+      "export_path": "src/chapter4_repro/training/__init__.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "cd4e44d51a426b9af7aa5b9e94223bf57d839fb0e51fdc8fc1a9fe55dc212f7e",
+      "export_path": "src/chapter4_repro/ref_kind_filters.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "b84b7d748e21584e7cb1f52c79b77dfc04b2a97f342be8b827f1dc93fa20d706",
+      "export_path": "src/chapter4_repro/training/dataset.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "c2215e8908ae2c02ebc523e4c5d3bfd136931eb00840ec7a181c9d6718b57f33",
+      "export_path": "src/chapter4_repro/embedding/cbow.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "89120978648d66aa96161367a5e525bf297e7fba9c0a591be0104fe6ca819538",
+      "export_path": "src/chapter4_repro/embedding/pretrained.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "6b068e5fb8689c93294cc54905d67dfd1bc92d5a9624ec3726ba5dfe50a6a398",
+      "export_path": "src/chapter4_repro/models/classifier.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "714ceac9d98457dcf0360cc52ec93f18dcccd3ef82790ab07ab80422da736a0b",
+      "export_path": "src/chapter4_repro/models/struct_transformer.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "a5ffe1c6e33510a56bd4b70089167d4405ce199094b6b2be84c0cb4898bf673e",
+      "export_path": "src/chapter4_repro/models/full_model.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "ac866986b509bc88143776d55e6ea35ad530ce64377ec5095c21620b2bf5c6e3",
+      "export_path": "src/chapter4_repro/models/hierarchical_path_fusion.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "df350822044bd1ce4bc1edb0f862cc6391389dd9aacf6f8ba39668acd303efa6",
+      "export_path": "src/chapter4_repro/models/path_fusion.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "db59f067ff15a7531991c9386bce37cd8a851f0dd176b0b09fbc8198d8bebe7e",
+      "export_path": "src/chapter4_repro/models/multibranch_fusion.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "94ec27c43115eea6ca1cedef97293bca12e09bcc06029504d45303b274d0d9c5",
+      "export_path": "src/chapter4_repro/models/__init__.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "d6f524fa5e76d183697f0feffab1bfbc444fd6599cf0100d837c48b4cded2f58",
+      "export_path": "src/chapter4_repro/models/multilevel_classifier.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "fb27afc778369398b28951efd50c6a8f8b00a5fdd47710cc6e6f7aa4bd8fddb9",
+      "export_path": "src/chapter4_repro/models/paper_dwaf.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "c8cfc2aafbe19699ecff76e6a020cccadebca3c9f9c6abf6bc9dbc58bd9b8c60",
+      "export_path": "src/chapter4_repro/models/structure_sensitive_transformer.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "0ef65b76efd5e8fec1c55becf6fb91f5e14b4818c53cc171dabc9771ccdb1cc2",
+      "export_path": "src/chapter4_repro/task34/model.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "faa521d6cfeac03b796004689d8b0293de05116632533e5a0611b30282a76d2d",
+      "export_path": "src/chapter4_repro/task39s/attempt_ledger.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "6660ed84fc89e18dcb6b8a28583e1ec3748d8ad7e453cb0254aab931bd655232",
+      "export_path": "src/chapter4_repro/task39s/protocol_v3.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "2a0ca8f9630f8eae3ab7ba3489e323a8499954cb20e478a9e3028e2a360e3724",
+      "export_path": "src/chapter4_repro/task39s/source_integrity_v2.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "5bd8993abd39cac3737e57a28a94bf6839a6e8030ce238c63a2389a074f392ab",
+      "export_path": "src/chapter4_repro/task39s/activation.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "891de9028a77820f83082df134118e0ff8793dd16f669807317402975746870b",
+      "export_path": "src/chapter4_repro/task39s/formal_evidence.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "dafd940b06dc1092444513129221184ff52d26a402dfd2454c5bc9620c26b322",
+      "export_path": "src/chapter4_repro/task39s/activation_v2.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "a46e2640488e6228a6271595776cd563d818513071389ca98ba9e4878f881bf4",
+      "export_path": "src/chapter4_repro/task39s/observability_v3.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "3fdbac78c46fa4cae35f1413c74b7917e4b1aa4dc3f762e457e640ecb45df93d",
+      "export_path": "src/chapter4_repro/task39s/__init__.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "28cb135e48f5d22819fc626aacf8df54b9801e025b670989de992cdc1fa333a6",
+      "export_path": "src/chapter4_repro/representation_v2/clang_shadow.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "c23d2f79432f919b835c7561624cfb1e1c4876c5efc18f7358125de5a6edb1b8",
+      "export_path": "src/chapter4_repro/representation_v2/__init__.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "4ed10e5fe8cacdf7a212c24731571777d0291fc64f23d77a8ad8859ed69545fa",
+      "export_path": "src/chapter4_repro/representation_v2/schema.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "86604d1aa13bd8fc77d0f31a1e0a0fb7a309a271ca534db4775b4e88ed831f7c",
+      "export_path": "src/chapter4_repro/representation_v2/frontend.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "9095f087633c086ff2fa2b1031db53de183eb0f4664dce4ade69c0a2563d9409",
+      "export_path": "src/chapter4_repro/representation_v2/materialization.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "3a954a279da70e8debe2453db89c05c8a199a39d0ef7e5357d07b0d466e458bf",
+      "export_path": "src/chapter4_repro/representation_v2/matched_embedding.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "a660eb96e9a3c1b883d5a166b7c0707acbc8503ee031920401e6bbc722116a9b",
+      "export_path": "src/chapter4_repro/task34/data.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "9fbb505112982217a6d1a5603825aa10fcd9ab675fded0a90cdda19cf8dc2d58",
+      "export_path": "src/chapter4_repro/task39s/r6e_transition_contract.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "51b7412b83e41fc0b0b75073f0080baa819ee6718fa45b3da7edcb889302a211",
+      "export_path": "src/chapter4_repro/task39s/r6e_execution_bridge.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "764a3d4265c720014ecf711480070da499cd0691af4d1975e9f0033e0df1d990",
+      "export_path": "src/context_model.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "7eed1da4f46c32c79d0bbb0e80239b9399ae969e6043ab700470b6514efb454c",
+      "export_path": "src/semantic_encoder.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "c8ce34d95fcc5408a9f78177ecb591007d461c44aad637d6ebf9a867cdcbae17",
+      "export_path": "src/semantic_encoder_v3.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "fd774e372d27f925f7176d6de8627b2ac591c14474cbcf1465683cd4f320dd5b",
+      "export_path": "src/missing_context_bridge.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "f224b9c5cd72b20b403a744f3bda37ddc934bed4a280e4cad372892754719b60",
+      "export_path": "src/evaluation_utils.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "2e1dde4136c6691a6ddc1a9c4a091cdd4fed2325fd5e5161c2b1ed23fec9feb4",
+      "export_path": "src/common04.py",
+      "original_binding_match": true
+    },
+    {
+      "original_sha256": "11fe9bfef41f49f8f49632a29c654940b1bb6328c940faadb356674c835f2a93",
+      "export_path": "experiments/supervised_training/runtime.py",
+      "original_binding_match": true
+    }
+  ]
+}

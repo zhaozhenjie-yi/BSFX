@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "Offline arithmetic checks on privately retained predictions completed before publication; this repository contains aggregates only.",
+  "distinct_current_config_seed_results": 48,
+  "unique_prediction_rows_checked": 14880,
+  "metric_dictionaries_recomputed": 306,
+  "validation_thresholds_checked_including_three_reused_duplicates": 51,
+  "task27_development_validation_runs_checked": 4,
+  "model_forwards": 0,
+  "checkpoint_loads": 0,
+  "optimizer_updates": 0,
+  "aggregate_evidence": [
+    {
+      "aggregate": "results/component_ablation/ALL_METRICS.json",
+      "original_aggregate_sha256": "52e2a23b276549e399b9fe11ac0bba9d435367167ab9b19f05c1dd707365f2fd"
+    },
+    {
+      "aggregate": "results/relation_ablation/ALL_METRICS.json",
+      "original_aggregate_sha256": "8f6e1e181480640c9e2a2830d0603cfe429025b666708bb3f049fb3aba11621c"
+    }
+  ],
+  "excluded": "Per-function predictions, function metadata, raw datasets, weights, machine/environment metadata, connection information, deployment/input-binding records."
+}
